@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LingGuang Clinic Platform V1.0</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav">
+      <div class="logo">LINGGUANG™</div>
+      <div class="nav-links">
+        <a href="#about">关于</a>
+        <a href="#services">服务</a>
+        <a href="#apply">申请加入</a>
+        <a href="#portal">患者入口</a>
+      </div>
+    </nav>
+
+    <div class="hero-content">
+      <h1>LingGuang Clinic Platform V1.0</h1>
+      <p class="subtitle">高净值客户 · 申请制健康管理 · 中医 · 针灸 · 整骨 · 长期康养</p>
+
+      <div class="cta-group">
+        <a class="btn primary" href="#apply">申请加入 Apply for Care</a>
+        <a class="btn secondary" href="#portal">患者入口</a>
+        <a class="btn secondary" href="#doctor">医师入口</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="section">
+      <h2>平台定位</h2>
+      <p>
+        本平台采用“申请制”而非公开预约制。所有新客户需先提交健康申请，
+        由医师审核后决定是否进入长期健康管理体系。
+      </p>
+    </section>
+
+    <section id="services" class="section cards">
+      <div class="card">
+        <h3>灵光健康评估</h3>
+        <p>体质、疼痛、睡眠、情绪、长期风险综合分析。</p>
+      </div>
+      <div class="card">
+        <h3>长期康养计划</h3>
+        <p>按季度或年度管理，追踪疗效与生活方式。</p>
+      </div>
+      <div class="card">
+        <h3>高端私享服务</h3>
+        <p>严格筛选客户，控制服务数量与质量。</p>
+      </div>
+    </section>
+
+    <section id="apply" class="section">
+      <h2>申请加入 Apply for Care</h2>
+
+      <form class="apply-form">
+        <div class="grid">
+          <label>
+            姓名
+            <input type="text" placeholder="您的姓名" />
+          </label>
+
+          <label>
+            邮箱
+            <input type="email" placeholder="name@example.com" />
+          </label>
+
+          <label>
+            电话
+            <input type="tel" placeholder="+1 403-xxx-xxxx" />
+          </label>
+
+          <label>
+            所在城市
+            <input type="text" placeholder="Calgary / Red Deer / ..." />
+          </label>
+        </div>
+
+        <label>
+          主要健康诉求
+          <textarea rows="5" placeholder="请简述您希望获得帮助的核心问题"></textarea>
+        </label>
+
+        <label class="checkbox">
+          <input type="checkbox" />
+          我理解这是申请制服务，提交后需等待医师审核。
+        </label>
+
+        <button type="button" class="btn primary">提交申请</button>
+      </form>
+    </section>
+
+    <section id="portal" class="section two-col">
+      <div class="panel">
+        <h2>患者入口</h2>
+        <p>仅限已通过审核的患者使用。</p>
+        <input type="email" placeholder="邮箱" />
+        <input type="password" placeholder="密码" />
+        <button class="btn primary">登录</button>
+      </div>
+
+      <div id="doctor" class="panel">
+        <h2>医师入口</h2>
+        <p>Dashboard / 病历 / 收费 / 会员管理</p>
+        <input type="email" placeholder="医师账号" />
+        <input type="password" placeholder="密码" />
+        <button class="btn primary">进入后台</button>
+      </div>
+    </section>
+
+    <section class="section dashboard-preview">
+      <h2>后台预览（V1.0）</h2>
+
+      <div class="dashboard-grid">
+        <div class="dash-card">
+          <span>待审核申请</span>
+          <strong>12</strong>
+        </div>
+
+        <div class="dash-card">
+          <span>活跃患者</span>
+          <strong>86</strong>
+        </div>
+
+        <div class="dash-card">
+          <span>本周随访</span>
+          <strong>18</strong>
+        </div>
+
+        <div class="dash-card">
+          <span>会员计划</span>
+          <strong>24</strong>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>LINGGUANG™ Rejuvenation · High-Value Care Platform</p>
+  </footer>
+</body>
+</html>
