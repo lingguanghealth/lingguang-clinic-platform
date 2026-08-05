@@ -1,13 +1,18 @@
-# LINGGUANG Health OS — Preview 1.1
+# LINGGUANG Health OS V0.0.1
 
-New in this version:
-- Communication Centre
-- Appointment confirmation and change notifications
-- Required form links
-- Delivery, opened, and completed statuses
-- Duplicate-message protection
-- Combined secure link for pending forms
-- Configurable automation rules
-- Test-message simulation
+This is the first runnable patient-intake prototype.
 
-This remains a front-end prototype. It does not yet connect to a real SMS provider, patient database, or secure portal.
+## Included
+- Welcome screen
+- Four intake entry cards
+- Patient information form
+- Main concern selection
+- Dynamic pain assessment
+- Review and submit page
+- Automatic local saving in the browser
+- Mobile-friendly responsive design
+
+## Open
+Double-click `index.html` in the folder.
+
+For iPhone testing, upload the folder to any static web host or open it through a local web server.
