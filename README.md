@@ -1,27 +1,28 @@
-# LINGGUANG Health OS Integrated 1.2
+# LINGGUANG Health OS — Local AI Beta 001
 
-This version keeps the original dashboard and top navigation as the system home.
+## New in this build
+- Real browser-based local language-model integration using WebLLM.
+- WebGPU capability detection.
+- Optional download/load of `SmolLM2-360M-Instruct-q4f32_1-MLC`.
+- Model loading progress display.
+- Browser model cache and unload controls.
+- Local symptom category, location, duration, pattern and missing-question extraction.
+- AI Conversation uses the local model when loaded.
+- Automatic local rule-engine fallback when the model is unavailable.
+- No GPT API is used by the Local AI feature.
+- Existing brand, navigation, back buttons, intake, booking, patients, clinical and AI Care are retained.
 
-## Integrated workflow
-Dashboard → AI Care → AI Intake → Patient Assessment → Clinical Summary → Clinical Workspace
+## Important
+The app files are small, but the AI model is downloaded separately on first use and cached by the browser. Device storage, memory, speed and compatibility vary.
 
-## Working features
-- Original navigation dashboard preserved
-- Booking add, confirm/pending, and delete
-- Patient list created from completed intake
-- Five-step intake with automatic local draft saving
-- Structured clinical summaries
-- Transfer summary into clinical notes
-- Clinical-note saving
-- Health Analysis based on check-ins
-- Remote Care daily check-ins
-- Follow-up creation and completion
-- Risk Review flags
-- Health Journey display
-- Clinic statistics
-- Browser local storage
+This beta is not a production medical-record system and does not diagnose or replace practitioner review.
 
-## Open
-Unzip and open `index.html`.
-
-This is a local working edition. Data remains in the browser/device where it is opened. Cloud sync, login, SMS/email, and live GPT API are not yet connected.
+## Mobile GitHub upload
+Upload or replace:
+- index.html
+- app.js
+- local-ai.js
+- styles.css
+- README.md
+- lingguang-logo.png
+- favicon.png
