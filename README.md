@@ -1,28 +1,14 @@
-# LINGGUANG Health OS — Local AI Beta 001
+# LINGGUANG Health OS — Voice AI Build 009
 
-## New in this build
-- Real browser-based local language-model integration using WebLLM.
-- WebGPU capability detection.
-- Optional download/load of `SmolLM2-360M-Instruct-q4f32_1-MLC`.
-- Model loading progress display.
-- Browser model cache and unload controls.
-- Local symptom category, location, duration, pattern and missing-question extraction.
-- AI Conversation uses the local model when loaded.
-- Automatic local rule-engine fallback when the model is unavailable.
-- No GPT API is used by the Local AI feature.
-- Existing brand, navigation, back buttons, intake, booking, patients, clinical and AI Care are retained.
+Working foundation:
+- Voice AI top-level module
+- Global microphone button
+- Consultation Workspace
+- Patient-linked Voice Sessions
+- Browser live speech test with typed fallback
+- Local voice command router
+- SOAP draft generation
+- Review before save
+- Confirmed note saves to Clinical Notes
 
-## Important
-The app files are small, but the AI model is downloaded separately on first use and cached by the browser. Device storage, memory, speed and compatibility vary.
-
-This beta is not a production medical-record system and does not diagnose or replace practitioner review.
-
-## Mobile GitHub upload
-Upload or replace:
-- index.html
-- app.js
-- local-ai.js
-- styles.css
-- README.md
-- lingguang-logo.png
-- favicon.png
+Cloud professional speech and cloud medical LLM are not connected yet.
